@@ -7,22 +7,22 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
+    name: Logan Mancuso
     tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: lmancuso@expresscomputer.biz
+    phone: 803 348 5862
+    website: loganmancuso.github.io #do not add http://
+    linkedin: mancuso-logan
+    github: loganmancuso
+    gitlab: loganmancuso
+    # bitbucket: 
+    # twitter: '@webjeda'
+    stack-overflow: 9565035/logan-mancuso # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
