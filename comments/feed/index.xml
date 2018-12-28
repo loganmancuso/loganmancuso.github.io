@@ -6,13 +6,13 @@
 	
 	>
 <channel>
-	<title>Comments for Logan Mancuso</title>
+	<title>Comments for Logan&#039;s Portfolio</title>
 	<atom:link href="https://loganmancuso.github.io/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>https://loganmancuso.github.io/</link>
-	<description>Logan Mancuso Homepage</description>
-	<lastBuildDate>Wed, 12 Dec 2018 22:21:16 +0000</lastBuildDate>
+	<description>projects and accomplishments</description>
+	<lastBuildDate>Fri, 28 Dec 2018 20:02:06 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.0</generator>
+	<generator>https://wordpress.org/?v=5.0.2</generator>
 </channel>
 </rss>
