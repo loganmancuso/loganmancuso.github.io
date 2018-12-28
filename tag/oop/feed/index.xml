@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Object Oriented Programming &#8211; Logan&#039;s Portfolio</title>
+	<atom:link href="https://loganmancuso.github.io/tag/oop/feed/" rel="self" type="application/rss+xml" />
+	<link>https://loganmancuso.github.io/</link>
+	<description>projects and accomplishments</description>
+	<lastBuildDate>Sun, 23 Dec 2018 22:01:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.0.2</generator>
+
+<image>
+	<url>https://loganmancuso.github.io/wp-content/uploads/2018/12/cropped-square-1-32x32.png</url>
+	<title>Object Oriented Programming &#8211; Logan&#039;s Portfolio</title>
+	<link>https://loganmancuso.github.io/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Generic Projects</title>
+		<link>https://loganmancuso.github.io/coding/oop/generic-projects/</link>
+		<pubDate>Fri, 14 Dec 2018 02:01:58 +0000</pubDate>
+		<dc:creator><![CDATA[Logan Mancuso]]></dc:creator>
+				<category><![CDATA[Object Oriented]]></category>
+		<category><![CDATA[Scripting]]></category>
+		<category><![CDATA[BASH]]></category>
+		<category><![CDATA[College]]></category>
+		<category><![CDATA[Object Oriented Programming]]></category>
+		<category><![CDATA[Shell]]></category>
+
+		<guid isPermaLink="false">https://loganmancuso.github.io/?p=6217</guid>
+		<description><![CDATA[blank_projects Contains a generic folder structure of common languages Bash C C++ Flex &#38; Bison Java JavaScript Python Ruby add support for go next and a Generic Structure]]></description>
+				<content:encoded><![CDATA[<h1>blank_projects</h1>
+<p>Contains a generic folder structure of common languages</p>
+<p>Bash<br />
+C<br />
+C++<br />
+Flex &amp; Bison<br />
+Java<br />
+JavaScript<br />
+Python<br />
+Ruby</p>
+<p>add support for go next</p>
+<p>and a Generic Structure</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
