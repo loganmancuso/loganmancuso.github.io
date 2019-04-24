@@ -11,20 +11,18 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+github:             loganmancuso
+gitlab:             loganmancuso
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com # change this to your email to receive free emails for your contact submissions via Slapform.com
+location:           Blythewood, SC
+phone:              803-348-5862
+email:              logan@mancuso.in # change this to your email to receive free emails for your contact submissions via Slapform.com
 
 # Other
 background_image:   /images/background.jpg
 # Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
-slapform_thankyou_page: /thank-you
+# slapform_thankyou_page: /thank-you
 
 defaults:
 - scope:
@@ -33,7 +31,7 @@ defaults:
   values:
     permalink: "/blog/:title/"
     layout: post
-    author:
+    author: Logan Mancuso
 
 # Jekyll
 permalink:          /blog/:title/
@@ -61,8 +59,8 @@ plugins:
 paginate: 6
 paginate_path: "/blog/page:num/"
 
-# jekyll-mentions:
-    # base_url: https://loganmancuso.github.io/ #(logan.mancuso.in)
+jekyll-mentions:
+    base_url: https://loganmancuso.github.io/ #(logan.mancuso.in)
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
