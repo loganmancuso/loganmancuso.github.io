@@ -1,9 +1,8 @@
 <!DOCTYPE HTML>
 <!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-  Jekyll integration by somiibo.com
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	'blog.html'
+	Author/CopyRight: Mancuso, Logan
+  Last Edit Date: 04-28-2019--14:41:19
 -->
 <html>
 	<head>
@@ -35,8 +34,8 @@
           <article class="post featured">
             <header class="major">
               <h2><a href="#">My Projects</a></h2>
-              <p>Blogs are really pretty awesome things. For one, they are a means to continually provide fresh,
-                dynamic content to your users. Also, they help your site get indexed and build authority as they are essential for SEO!
+              <p>
+									These projects are a collection of school projects as well as independent work. 
 							</p>
             </header>
 						<p>
@@ -52,7 +51,7 @@
           </article>
 					<!-- Post -->
 					<section class="posts">
-						{% for post in site.blog %}
+						{% for post in site.posts %}
 						{% assign mod3 = forloop.index | modulo: 3 %}
 							<article>
 								<header>
