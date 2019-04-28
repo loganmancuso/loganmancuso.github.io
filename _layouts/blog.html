@@ -2,12 +2,11 @@
 <!--
 	'blog.html'
 	Author/CopyRight: Mancuso, Logan
-  Last Edit Date: 04-28-2019--14:41:19
+	Last Edit Date: 04-28-2019--14:41:19
 -->
 <html>
 	<head>
-    {% include head.html %}
-
+		{% include head.html %}
 	</head>
 	<body class="is-loading">
 
@@ -15,32 +14,27 @@
 			<div id="wrapper" class="fade-in">
 
 				<!-- Header -->
-				
 				<header id="header">
 					<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
 				</header>
 
-
 				<!-- Nav -->
 					<nav id="nav">
-
-            {% include nav.html %}
-						
+						{% include nav.html %}
 					</nav>
 
 				<!-- Main -->
 				<div id="main">
-
-          <article class="post featured">
-            <header class="major">
-              <h2><a href="#">My Projects</a></h2>
-              <p>
-									These projects are a collection of school projects as well as independent work. 
+					<article class="post featured">
+						<header class="major">
+							<h2><a href="#">My Projects</a></h2>
+							<p>
+									<i>These projects are a collection of my independent work.</i> 
 							</p>
-            </header>
+						</header>
 						<p>
-							Content fulfills the general population seeing your website and it likewise fulfills web indexes! Having solid content
-							influences your advertising to work a hell of a great deal simpler. Along these lines, the greatest bit of the promoting riddle is there. It's vital to thoroughly consider this technique before starting another crusade. This makes the whole content and advertising process more streamlined and will in the end enable your message to achieve your clients in a more effective manner. You ought not think little of the significance of giving yourself room. Having squirm room takes into consideration steady changes to your methodology en route.
+							My main focus for developing code is to make tasks simpler. Projects listed below such as my Custom Terminal and
+							Blank Projects aim to make development of programs faster in C++, Java, Python and more.
 						<p>
 						</p>
 							At that point, rather than pushing something superfluous to your users, you can give them something that will stick.
@@ -48,7 +42,7 @@
 							Having an advancement technique that is excessively unbending isn't astute on the grounds that there is no space for solid spontaneous creation. Having the capacity to change your advertising procedure will prompt more deals and arrangements.
 						</p>
 
-          </article>
+					</article>
 					<!-- Post -->
 					<section class="posts">
 						{% for post in site.posts %}
@@ -80,7 +74,7 @@
 					</div>
 
 				<!-- Footer -->
-        {% include foot.html %}
+				{% include foot.html %}
 
 			</div>
 
