@@ -22,7 +22,7 @@ email:              logan@mancuso.in # change this to your email to receive free
 # Other
 background_image:   /images/background.jpg
 # Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
-# slapform_thankyou_page: /thank-you
+slapform_thankyou_page: /thank-you
 
 defaults:
 - scope:
@@ -30,7 +30,7 @@ defaults:
     type: posts
   values:
     permalink: "/blog/:title/"
-    layout: post
+    layout: blog
     author: Logan Mancuso
 
 # Jekyll
@@ -60,7 +60,8 @@ paginate: 6
 paginate_path: "/blog/page:num/"
 
 jekyll-mentions:
-    base_url: https://loganmancuso.github.io/ #(logan.mancuso.in)
+    base_url: https://loganmancuso.github.io/
 
 # Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, 
+            package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
