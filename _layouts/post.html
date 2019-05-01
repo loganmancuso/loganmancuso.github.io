@@ -1,41 +1,41 @@
 <!DOCTYPE HTML>
 <!--
-	'post.html'
-	Author/CopyRight: Mancuso, Logan
+  'post.html'
+  Author/CopyRight: Mancuso, Logan
   Last Edit Date: 04-28-2019--14:41:19
 -->
 <html>
-	<head>
+  <head>
     {% include head.html %}
-	</head>
-	<body class="is-loading">
+  </head>
+  <body class="is-loading">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <!-- Wrapper -->
+      <div id="wrapper" class="fade-in">
 
-				<!-- Header -->
+        <!-- Header -->
         <header id="header">
           <a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
         </header>
 
-				<!-- Nav -->
-					<nav id="nav">
+        <!-- Nav -->
+          <nav id="nav">
 
             {% include nav.html %}
-						
-					</nav>
+            
+          </nav>
 
-				<!-- Main -->
-				<div id="main">
+        <!-- Main -->
+        <div id="main">
           <section class="post">
-    				<header class="major">
-      				<span class="date">{{page.date | date_to_string}}</span>
-      				<h1>{{page.title}}</h1>
-      				<p>{{page.excerpt}}</p>
-      			</header>
-      			<div class="image main"><img src="{{page.image}}" alt=""></div>
-      			<p>{{content}}</p>
-      		</section>
+            <header class="major">
+              <span class="date">{{page.date | date_to_string}}</span>
+              <h1>{{page.title}}</h1>
+              <p>{{page.excerpt}}</p>
+            </header>
+            <div class="image main"><img src="{{page.image}}" alt=""></div>
+            <p>{{content}}</p>
+          </section>
 
           <div class="comments-wrapper">
           <div id="disqus_thread"></div>
@@ -63,22 +63,22 @@
         </div><!-- /.comments-wrapper -->
 
 
-					<!-- Footer -->
-						<footer>
+          <!-- Footer -->
+            <footer>
               <ul class="actions">
-                <li><a href="{{ "/blog/" | absolute_url }}" class="button">My Projects</a></li>
+                <li><a href="{{ "/blog/" | absolute_url }}" class="button">More Projects</a></li>
               </ul>
-						</footer>
-					</div>
+            </footer>
+          </div>
 
-				<!-- Footer -->
+        <!-- Footer -->
         {% include foot.html %}
 
-			</div>
+      </div>
 
       <!-- Scripts -->
-  		{% include scripts-main.html %}
-			{% include tracking.html %}
+      {% include scripts-main.html %}
+      {% include tracking.html %}
 
-	</body>
+  </body>
 </html>
