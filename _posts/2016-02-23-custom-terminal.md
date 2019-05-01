@@ -9,7 +9,7 @@ image: "/images/pic02.jpg"
 <!--
   '2016-02-23-custom-terminal.md'
   Author/CopyRight: Mancuso, Logan
-  Last Edit Date: 04-28-2019--14:41:19
+  Last Edit Date: 05-01-2019--16:27:49
 -->
 
 # Custom Terminal
