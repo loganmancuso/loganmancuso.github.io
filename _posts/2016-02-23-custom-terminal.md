@@ -1,16 +1,10 @@
-
 ---
 layout: post
 title:  "Custom Terminal"
 date:   2016-02-23
 excerpt: "$HOME/.custom_terminal/*"
-image: "/images/pic02.jpg"
+image: "/images/posts/custom.png"
 ---
-<!--
-  '2016-02-23-custom-terminal.md'
-  Author/CopyRight: Mancuso, Logan
-  Last Edit Date: 05-01-2019--16:27:49
--->
 
 # Custom Terminal
 
