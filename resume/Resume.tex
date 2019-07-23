@@ -4,209 +4,135 @@
 % Last Edit Date: 07-23-2019--13:57:40
 %%%
 
-\documentclass[letterpaper,10pt]{article}
-
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
-\usepackage{enumitem}
-\usepackage[pdftex, hidelinks]{hyperref}
-\usepackage{fancyhdr}
-
-\usepackage[charter]{mathdesign} % Bitstream Charter
-% \usepackage{newpxtext,newpxmath} % Palatino
-
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.50in}
-\addtolength{\evensidemargin}{-0.50in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
-
-\urlstyle{same}
-
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-% Sections formatting
-\titleformat{\section}{
-  \vspace{-6pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-%-------------------------
-% Custom commands
-\newcommand{\resumeItem}[2]{
-  \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
-  }
-}
-
-\newcommand{\resumeItemNoBullet}[2]{
-  \item[]\small{
-    \hspace{-9pt}\textbf{#1}{: #2 \vspace{-6pt}}
-  }
-}
-
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item[]
-  \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
-      \hspace{-10pt}\textbf{#1} & #2 \\
-      \hspace{-10pt}\textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
-}
-
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
-
-\renewcommand{\labelitemii}{$\circ$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-% custom commands
-\newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
-
-%-------------------------------------------
-%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\documentclass{tccv}
+\usepackage[english]{babel}
 
 \begin{document}
 
-%----------HEADING-----------------
-\begin{center}
-  \small \textbf{\href{abhoi.github.io}{\huge Amlaan Bhoi}} \\  \href{mailto:abhoi3@uic.edu}{\color{blue}\underline{abhoi3@uic.edu}} $\vert$
-  630-362-5747 $\vert$
-  LinkedIn: \href{https://www.linkedin.com/in/abhoi/}{\color{blue}\underline{abhoi}} $\vert$
-  Github: \href{https://github.com/abhoi}{\color{blue}\underline{abhoi}} \\
-  \small 1720 S Michigan Ave, Chicago, IL
-\end{center}
+\part{Nicola Fontana}
 
-%-----------EDUCATION-----------------
-\shorterSection{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {University of Illinois at Chicago}{Chicago, IL}
-      {Master of Science in Computer Science;  GPA: 3.83/4.0}{Expected May 2019}{
-      \resumeItemNoBullet{Thesis}{Invariant Kernels for Few-shot Learning}
-      \resumeItemNoBullet{Relevant Coursework}{Advanced Machine Learning, Advanced Database Management Systems, Applied Artificial Intelligence, AI: Innovation \& Entrepreneurship, Data Mining \& Text Mining, Introduction to Data Science}
-    }
-    \resumeSubheading
-      {Amity University}{New Delhi, India}
-      {Bachelor of Technology in Computer Science \& Engineering;  GPA: 3.32/4.0 (8.28/10.0)}{Aug 2013 - May 2017}
-    %   \resumeItemNoBullet{Relevant Coursework}{Analysis \& Design of Algorithms, Data Structures using C, Operating Systems, Pattern Recognition}
-  \resumeSubHeadingListEnd
+\section{Work experience}
 
-%-----------SKILLS-----------------
-\shorterSection{Skills}
-  \resumeSubHeadingListStart
-  \small
-    \item{
-     \textbf{Languages}{: Python, C++, SQL, Java, Swift}
-     \hfill
-     \textbf{Technologies}{: GCP, AWS, GitHub, GitLab, Docker}
-    }
-    \vspace{-5pt}
-    \item{
-     \textbf{Libraries}{: TensorFlow, PyTorch, Keras, Scikit-Learn, Numpy, Pandas, Spark, Jupyter, OpenCV, PIL, OpenCL, OpenGL, CUDA}
-    }
-\resumeSubHeadingListEnd
+\begin{eventlist}
 
-%-----------EXPERIENCE-----------------
-\shorterSection{Experience}
-  \resumeSubHeadingListStart
+\item{July 2007 -- Present}
+     {eNTiDi software, Travagliato}
+     {Management and development}
 
-    \resumeSubheading
-      {CCC Information Services}{Chicago, IL}
-      {R\&D Engineer Intern (Machine Learning)}{May 2018 - Present}
-      \resumeItemListStart
-        \resumeItem{RotNet}
-          {Designed and trained a shallow CNN to classify rotated images. Achieved F1-score of 0.99 on test set of 1M+ images}
-        \resumeItem{TagNet}
-          {A computer vision model to classify views of automobile images
-            \begin{itemize}
-                \item Implemented an expectation maximization algorithm to sample and classify images from 6M+ unlabeled images to prepare a clean dataset of 100K+ images for training
-                \item Designed and trained a low-complexity CNN to classify 20+ views of automobile images resulting in 30\% improvement in  F1-score compared to SVM model
-                \item Reduced model complexity and size by 40\% by freezing model and performing post-training quantization
-            \end{itemize}
-          }
-        \resumeItem{TVR}
-          {A computer vision model to determine if image is total loss or repairable
-          \begin{itemize}
-              \item Trained ensemble of CNN architectures on 1M+ automobile images to classify vehicles as total loss or repairable resulting in 25\% higher weighted F1-score and 60\% decrease in model size compared to older iteration
-              \item Incorporated first notice of loss information using NLP to increase  F1-score by 10\%
-          \end{itemize}
-          }
-      \resumeItemListEnd
+Software development for the industrial automation sector: configuration
+front-end in C with interface based on \href{http://www.gtk.org/}{GTK+},
+web applications and sites on LAMP platforms grounded on the
+\href{http://www.silverstripe.org/}{SilverStripe} framework,
+supervisor programs in LabVIEW and remote system in
+\href{http://www.lua.org/}{Lua} on GNU/Linux systems.
 
-    \resumeSubheading
-      {Reliance Communications}{Mumbai, India}
-      {Software Engineer Intern}{May 2016 - Aug 2016}
-      \resumeItemListStart
-        \resumeItem{Optimal Node Search}
-          {Implemented Dijkstra's algorithm on 10K+ network nodes to find shortest path for signal propagation resulting in 25\% reduction in costs}
-      \resumeItemListEnd
+\item{January 2002 -- June 2004}
+     {TEMA s.r.l., Travagliato}
+     {PLC Omron development}
 
-    \resumeSubheading
-      {OSSCube}{New Delhi, India}
-      {Software Engineer Intern}{May 2015 - Aug 2015}
-      \resumeItemListStart
-        \resumeItem{Squeek Twitter iOS}
-          {Designed and developed Twitter client using Fabric SDK}
-      \resumeItemListEnd
+Development and testing of automatic and semiautomatic machines for
+ribbon winding on spools and rolls (safety belts, hook-and-loop tapes,
+elastic ribbon and bindings). Designing of electrical schematics on
+2D cad and user manuals drafting.
 
-  \resumeSubHeadingListEnd
+\item{October 1998 -- November 2001}
+     {TWINS s.r.l., Sarezzo}
+     {PC and PLC Siemens development}
 
-%-----------PROJECTS-----------------
-\shorterSection{Projects}
-  \resumeSubHeadingListStart
-    \resumeSubItem{OCR using Conditional Random Fields}
-     {A probabilistic graphical model for sequential character recognition
-        \vspace{-5pt}
-        \begin{itemize}
-            \item Implemented a CRF in $O(m|\mathcal{Y}|^2)$ time to achieve a 84\% letter-wise accuracy on UPenn OCR dataset
-            \item Implemented OpenMPI CRF using PETSc and Tao to achieve 77.1\% letter-wise accuracy
-        \end{itemize}
-     }
-    \resumeSubItem{ARYouThereYet}{An augmented reality application developed on ARKit with dynamic AR nodes}
-    \resumeSubItem{Aspect-based Sentiment Analysis}
-      {Implemented Deep Memory Networks to achieve 78.66\% accuracy, 0.69 F1-score on SemEval 2014 dataset}
-    \resumeSubItem{Iris Speech to Code}
-      {A natural speech to code converter for aiding programmers with disabilities
-        \vspace{-5pt}
-        \begin{itemize}
-            \item Trained an intent classification model in Microsoft Luis to classify 15+ classes or commands
-            \item Implemented a message passing protocol using RabbitMQ to broker messages between Google API, ElectronJS, and VS Code
-        \end{itemize}
-      }
-    \resumeSubItem{AI Lifeguard}{Trained a 3D-CNN model on Microsoft Azure for action localization on drowning people in swimming pools. Achieved mean IOU score of 0.45}
-  \resumeSubHeadingListEnd
+Programming, installation and trial of transfer machines for assembly,
+adjustment and testing of gas taps. Development and installation of PC
+based semiautomatic test stands for pneumatic and hydraulic leakage
+tests on valves, gas regulators, electrovalves, tanks and others.
 
-%-----------Addtional Experience & Achievements-----------------
-\shorterSection{Additional Experience \& Achievements}
-  \resumeSubHeadingListStart
-  \small
-    \item{Presented poster on \textit{Tiramisu DenseNet Architecture for Precise Segmentation} for Intel AI at \textbf{CVPR 2018}}
-    \vspace{-5pt}
-    \item{Selected as an \textbf{Intel AI Student Ambassador} (only 150 students) to research, publish, and share work on machine learning and deep learning}
-    \vspace{-5pt}
-    \item{Won \textit{Best Microsoft Hack} out of 220 teams at \textbf{HackHarvard 2017}}
-    \vspace{-5pt}
-    \item{Placed 16/50 at Google Games: Campus Edition 2017 at UIC}
-    \vspace{-5pt}
-    \item{Won \textit{Best Technical Innovation} award (out of 800 students) at \textbf{Amity University Convocation 2017}}
-    \vspace{-5pt}
-    \item{Elected as a \textit{Vice-Chair} for \textbf{ACM Amity Student Chapter} out of 800 students at Amity University based on high-achieving and technically strong undergraduate students}
-  \resumeSubHeadingListEnd
-%-------------------------------------------
+\item{September 1996 -- September 1998}
+     {Elettronica EFFE-GI s.n.c., Cazzago}
+     {PC and PLC Hitachi development}
+
+Development of automatic machines in general, here included the design
+of electrical, pneumatic and hydraulic schematics on 2D cad and the PLC
+programming. Implementation of configuration and logging front-end using
+RS232 serial communications between PC and PLC-based transfer machines
+in BASIC, Pascal and C.
+
+\item{January 1994 -- June 1996}
+     {Seven Diesel s.p.a., Rovato}
+     {Engineering department director}
+
+Planning of nozzles for diesel engines and organization of production.
+Upgraded the management software by implementing a system for data
+handling and automatic drawing generation (in DXF) developed on the
+SuperBase 95 RAD tool.
+
+\end{eventlist}
+
+\personal
+    [www.entidi.com]
+    {viale Conciliazione, 13\newline 25039 -- Travagliato (BS)}
+    {+39 (30) 6862332}
+    {ntd@entidi.it}
+
+\section{Education}
+
+\begin{yearlist}
+
+\item[High school diploma]{1988 -- 1992}
+     {Informatic engineer}
+     {ITIS Castelli, Brescia}
+
+\item{1987 -- 1988}
+     {Classical gymnasium}
+     {Seminario vescovile, Cremona}
+
+\end{yearlist}
+
+\section{Public projects}
+
+\begin{yearlist}
+
+\item{2012}
+     {ntdisp (\href{http://ntdisp.entidi.com/}{ntdisp.entidi.com})}
+     {Embedded devices programmer}
+
+\item{2007}
+     {tip (\href{http://tip.entidi.com/}{tip.entidi.com})}
+     {PHP framework based on PEAR}
+
+\item{2006}
+     {adg (\href{http://adg.entidi.com/}{adg.entidi.com})}
+     {Automatic drawing generation}
+
+\item{2006}
+     {gtk2panel (\href{http://gtk2panel.entidi.com/}{gtk2panel.entidi.com})}
+     {Top panel menu in GTK+2}
+
+\item{2004}
+     {ntd (\href{http://ntd.entidi.com/}{ntd.entidi.com})}
+     {General purpose libraries}
+
+\end{yearlist}
+
+\section{Communication skills}
+
+\begin{factlist}
+\item{Italian}{Native speaker}
+\item{English}{Oral: fair -- Written: good}
+\item{Spanish}{Oral: good}
+\end{factlist}
+
+\section{Software skills}
+
+\begin{factlist}
+
+\item{Good level}
+     {C, PHP, HTML, CSS, autotools, git, gcc, GTK+, GObject, shell,
+      MS-DOS, Linux, ladder, G-Code}
+
+\item{Intermediate}
+     {Lua, \LaTeX, MySQL, VBA, cuBasic, pascal, subversion, LabVIEW}
+
+\item{Basic level}
+     {Windows, FreeBSD, OpenIndiana, Postgres}
+
+\end{factlist}
+
 \end{document}
