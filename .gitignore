@@ -1,4 +1,55 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.cache
+
+# Temporary files #
+###################
+*.swp
+*.swo
+*~
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs #
+########
+*.log
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+*.lock
+
+# Text Editors #
+################
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/
+
+# Project Files #
+#################
 _site
 .DS_Store
 .sass-cache
 .jekyll-metadata
+vendor/
+.bundle/

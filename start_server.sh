@@ -3,6 +3,7 @@
 
 if [ "$1" == "--full" ]; then
 	rm -rf _site
+	bundle install --path vendor/bundle
 	bundle update
 fi
 
