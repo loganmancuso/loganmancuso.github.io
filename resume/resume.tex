@@ -37,23 +37,24 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+	\vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
-  \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+	\item\small{
+		\textbf{#1}{: #2 \vspace{-2pt}}
   }
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
+	\vspace{-1pt}\item
+		\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+			\textbf{#1} & #2 \\
+			\textit{\small#3} & \textit{\small #4} \\
+			\textit{\small}\\
+		\end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
@@ -72,81 +73,78 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://loganmancuso.github.io/}{\Large Logan Mancuso}} & Email : \href{mailto:logan@mancuso.in}{logan@mancuso.in}\\
-  \href{https://loganmancuso.github.io/}{https://loganmancuso.github.io/} & Mobile : (803) 348-5862 \\
+	\textbf{\href{https://loganmancuso.github.io/}{\Large Logan Mancuso}} & Email : \href{mailto:logan@mancuso.in}{logan@mancuso.in}\\
+	\href{https://loganmancuso.github.io/}{https://loganmancuso.github.io/} & Mobile : (803) 348-5862 \\
 \end{tabular*}
 
 
 %-----------EDUCATION-----------------
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {University of South Carolina}{Columbia, SC}
-      {Bachelors of Science in Computer Science; Minor in Mathematics}{2015 -- 2019}
-    % \resumeSubheading
-    %   {Birla Institute of Technology and Science}{Pilani, India}
-    %   {Bachelor of Engineering in Electrical and Electronics;  GPA: 3.66 (9.15/10.0)}{Aug. 2008 -- July. 2012}
-  \resumeSubHeadingListEnd
+	\resumeSubHeadingListStart
+		\resumeSubheading
+			{University of South Carolina}{Columbia, SC}
+			{Bachelors of Science in Computer Science}{2015 -- 2019}\\
+			{Studied algorithmic computation and graph theory; these fields helped give me a thorough basis in
+				optimization-based programming. Topics included: algorithmic design, operating systems, computer
+				architecture, and software engineering.}
+		\resumeSubheading
+			{University of South Carolina}{Columbia, SC}
+			{Minor in Mathematics}{2015 -- 2019}
+			{Mathematical classes were used as a supplement to my Computer Science degree to further my education in
+				algorithmic analysis. Topics included: combinatorics, game theory, set analysis, and linear algebra.}
+	\resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Research and Computing}{Columbia, SC}
-      {HPC Developer and Systems Administrator}{May 2019 - Present}
-	  \resumeItemListStart
-	  High Performance Computing, helping research students adapt software to utilize OpenMPi for scaling projects across
-		multiple nodes. Utilizing Anaconda environments and Modules to create flexible local development. SLURM scheduling to
-		optimize program submission and resource allocation for thousands of processes. Python development for machine
-		learning using OpenCV3 for facial recognition and TensorFlow to train AI models.
-        \resumeItem{Projects}
-          {}
-        % \resumeItem{Apache Beam}
-        %   {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Express Computer Service}{Blythewood, SC}
-      {Senior Developer and Technician}{Jan 2012 - May 2019}
-      \resumeItemListStart
-	  Provide a range of services for business clients, including installation, configuration, and management of largescale
-		networks, databases and virtual environments. Remote Management and Monitoring with remote technical support.
-		Custom software solutions; with python web development and other open source cloud solutions.
-	 	 \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        \resumeItem{Nostos}
-          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
-
+	\resumeSubHeadingListStart
+		\resumeSubheading
+			{High Performance Computing}{Columbia, SC}
+			{Systems Administrator Technician}{May 2019 - Present}
+			{High Performance Computing, helping research students adapt software to utilize OpenMPi for scaling projects across
+				multiple nodes. Utilizing Anaconda and Modules to create flexible local development environments. SLURM scheduling to
+				optimize program submission and resource allocation for High Performance Computing Nodes. Python development for machine
+				learning using OpenCV3, Caffe for facial recognition and TensorFlow to train AI models.}
+		\resumeSubheading
+			{Express Computer Service}{Blythewood, SC}
+			{Senior Developer and Technician}{Jan 2012 - May 2019}
+			{Provide a range of services for business clients, including installation, configuration, and management of largescale
+				networks, databases and virtual environments. Remote Management and Monitoring with remote technical support.
+				Custom software solutions; with python web development and other open source cloud solutions.}
+	\resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------------
 \section{Projects}
-  \resumeSubHeadingListStart
-    \resumeSubItem{MIRC Facial Recognition}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{Github Visualization}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Blank Project Structures}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-    \resumeSubItem{NextCloud Sync Server}
-      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+	\resumeSubHeadingListStart
+		\resumeSubItem{MIRC Facial Recognition}
+			{Archive }
+		\resumeSubItem{Blank Project Structures}
+			{Music and Movie recommender systems using collaborative filtering on public datasets.}
+		\resumeSubItem{NextCloud Sync Server}
+			{Book that gives step by step instructions on setting up developer environment on Mac OS.}
   \resumeSubHeadingListEnd
 
-%
---------PROGRAMMING SKILLS------------
-\section{Programming Skills}
- \resumeSubHeadingListStart
-   \item{
-     \textbf{Languages}{: Python, Java, GO, Javascript, C++, SQL}
-     \hfill
-     \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-   }
- \resumeSubHeadingListEnd
-
+% --------PROGRAMMING SKILLS------------
+\section{Skills}
+	\resumeSubHeadingListStart
+		\item {
+			\textbf{Programming}\\
+			\textit{Languages}{: Python, Java, GO, Javascript, C++, LaTex}\\
+			\textit{Database}{: MySQL, MariaDB, PostgreSQl, DBeaver}\\
+			\textit{Scripting}{: Bash, PowerShell, Ruby, Perl}\\
+			\textit{Web Development}{: D3, PHP, CSS, HTML, Jekyll, Django}\\
+		}
+		\item {
+			\textbf{Technologies}\\
+			\textit{Cloud Computing}{: AWS, React, MySQL, D3}\\
+			\textit{AI and Machine Learning}{: OpenCV, TensorFlow, OpenMPI, Caffe, SLURM}\\
+		}
+		\item {
+			\textbf{Workplace}\\
+			\textit{Team}{: Leader over projects}
+			\textit{Independent}{: }
+		}
+	\resumeSubHeadingListEnd
 
 %-------------------------------------------
 \end{document}
