@@ -8,7 +8,7 @@ bio:                'Computer Science & Mathematics'
 description:        "B.S. with a focus in Graph Theory"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://loganmancuso.github.io" # the base hostname & protocol for your site
+url: "loganmancuso.github.io" # the base hostname & protocol for your site
 
 # Comments
 disqus_shortname:   default
@@ -61,10 +61,10 @@ plugins:
   - jekyll-paginate
 
 paginate: 6
-paginate_path: "/blog/page:num/"
+paginate_path: "/blog/page:num"
 
 jekyll-mentions:
-    base_url: https://loganmancuso.github.io
+    base_url: loganmancuso.github.io
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, 
