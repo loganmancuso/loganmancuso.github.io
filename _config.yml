@@ -1,9 +1,9 @@
 # Site
-repository: sproogen/modern-resume-theme # loganmancuso/loganmancuso.github.io
-favicon: images/favicon.ico
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+favicon: assets/favicon.ico
 
 # Personal info
-name: Your Name
+name: Logan Mancuso
 title: Your job title
 email: Your email (optional)
 phone: Your phone number (optional)
@@ -15,6 +15,7 @@ darkmode: false
 # Social links
 # twitter_username: jekyllrb
 github_username:  loganmancuso
+gitlab_username: loganmancuso
 stackoverflow_username: "9565035"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -28,10 +29,10 @@ linkedin_username: mancuso.logan
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
