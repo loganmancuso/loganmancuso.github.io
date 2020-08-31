@@ -1,71 +1,98 @@
-# '_config.yml'
-# Author/CopyRight: Mancuso, Logan
-# Last Edit Date: 05-01-2019--16:27:49
-
 # Site
-title:              Logan Mancuso
-bio:                'Computer Science & Mathematics'
-description:        "B.S. with a focus in Graph Theory"
-locale:             en_US
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://loganmancuso.github.io/" # the base hostname & protocol for your site
+repository: sproogen/modern-resume-theme # loganmancuso/loganmancuso.github.io
+favicon: images/favicon.ico
 
-# Comments
-disqus_shortname:   default
+# Personal info
+name: Your Name
+title: Your job title
+email: Your email (optional)
+phone: Your phone number (optional)
+website: Your website (eg. https://google.com)(optional)
 
-# Social
-analytics-id:       "default"
-github:             loganmancuso
-gitlab:             loganmancuso
+# Dark Mode (true/false/never)
+darkmode: false
 
-# personal
-location:           Blythewood, SC
-phone:              803-348-5862
-email:              logan@mancuso.in # change this to your email to receive free emails for your contact submissions via Slapform.com
+# Social links
+# twitter_username: jekyllrb
+github_username:  loganmancuso
+stackoverflow_username: "9565035"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: mancuso.logan
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
 
-# Other
-background_image:   /images/background.jpg
-# Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
-slapform_thankyou_page: /thank-you
+# Additional icon links
+additional_links:
+- title: Link name
+  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: blog
-    author: Logan Mancuso
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
 
-# Jekyll
-permalink:          /blog/:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_content: | # this will include new lines to allow paragraphs
+  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
+    - Lists
+    - Tables
+    - <a href="google.com">Links</a>
+    - Images
+
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
+
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
+
+# Education Section
+# education_title: Education #(Use this to override about education section title)
+
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+more_content: | # this will include new lines to allow paragraphs
+  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: true
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
 sass:
-  sass_dir:         _sass
-  style:            compressed
+  sass_dir: _sass
+  style: compressed
 
-# Gems
 plugins:
-  - jekyll-mentions
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
+ - jekyll-seo-tag
 
-paginate: 6
-paginate_path: "/blog/page:num/"
-
-jekyll-mentions:
-    base_url: https://loganmancuso.github.io/
-
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, 
-            package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
