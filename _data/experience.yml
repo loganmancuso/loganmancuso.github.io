@@ -1,10 +1,18 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+  company: University of SC Research Computing
+  link: https://usc-rc.github.io/
+  job_title: HPC & Nerual Network Developer
+  dates: 2015-2019
   quote: >
-   Short description of the company (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of role
+    A research division with the goal of helping researchers accomplish their goals using high performance computing
+  description: High Performance Computing, helping research students adapt software to utilize OpenMPi for scaling projects across multiple nodes. Utilizing Anaconda environments and Modules to create flexible local development. SLURM scheduling to optimize program submission and resource allocation for thousands of processes. Python development for machine learning using OpenCV3 for facial recognition and TensorFlow to train AI models. 
+  
+- layout: left
+  company: Express Computer Service
+  link: https://expresscomputer.biz/
+  job_title: Senior Developer and Technician
+  dates: 2012-2019
+  quote: >
+    A family run IT, Network and Server infrastructure company, specializing in small business support
+  description: Provide a range of services for business clients, including installation, configuration, and management of largescale networks, databases and virtual environments. Remote Management and Monitoring with remote technical support. Custom software solutions; with python web development and other open source cloud solutions.

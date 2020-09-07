@@ -3,4 +3,6 @@
 .sass-cache
 _site
 *.code-workspace
-vendor
+vendor/
+*.lock
+.jekyll-metadata

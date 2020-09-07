@@ -1,9 +1,14 @@
 # Education Template
 - layout: left
-  name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
-  quote: >
-    Short institution or course description (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of qualification
+  name: University of South Carolina
+  dates: 2015 - 2019
+  qualification: BS in Computer Science
+  description: |
+    Studied algorithmic computation and graph theory; these fields provide a thorough basis in optimization-based programming. Topics included: algorithmic design, operating systems, computer architecture, and software engineering.
+
+- layout: left
+  name: University of South Carolina
+  dates: 2015 - 2019
+  qualification: BS in Mathematics
+  description: |
+    Topics included: combinatorics, game theory, set analysis, and linear algebra.

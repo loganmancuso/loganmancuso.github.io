@@ -1,32 +1,22 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-favicon: assets/favicon.ico
+repository: loganmancuso/loganmancuso.github.io
+favicon: assets/images/favicon.ico
 
 # Personal info
 name: Logan Mancuso
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+title: DevOps Engineer and Systems Administator
+email: logan@mancuso.in
+phone: +1 (803) 470-3985
+# website:
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-# twitter_username: jekyllrb
 github_username:  loganmancuso
 gitlab_username: loganmancuso
 stackoverflow_username: "9565035"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
 linkedin_username: mancuso.logan
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 # additional_links:
@@ -45,33 +35,45 @@ linkedin_username: mancuso.logan
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images
+about_profile_image: assets/images/profile.jpg
+about_content: | 
+  I have grown up around technology and with this exposure came an increased interest in problem solving.
+  Breaking down complex problems into their core compenents is one of my greatest interests when it comes to software development.
+  Studying computer sience and mathematics at UofSC gave me the opportunity to delve into complex data analysis and neural network design.
+   
+  *Independent work*
+    - Complex scripting shortcuts for BASH environments to improve usability of the Linux platform
+    - Data Visualization using PowerBI 
 
 # Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+#projects_title: Projects #(Use this to override about projects section title)
 
 # Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
+#experience_title: Experience #(Use this to override about experience section title)
 
 # Education Section
-# education_title: Education #(Use this to override about education section title)
+#education_title: Education #(Use this to override about education section title)
 
 # More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
+more_title: Skills #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  Python/Java/C#/Go/C++
+    - OOP design and implementation 
+  MySQL/MariaDB/PostgreSQL
+    - Database management and development
+  OpenCV/TensorFlow/OpenMPi/Anaconda
+    - Machine learning and AI development
+  BASH/PowerShell/SLURM/Ruby/Perl
+    - Schedule processing and resource allocation
+  Team/Independent Environment
+    - Coding projects independently and contribute to a larger scale project
+  Mathematics background 
+    - Analysis of algorithmic efficiency multi node process scaling
+  PHP/CSS/HTML/d3
 
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+#  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 # Footer
+
 footer_show_references: true
 
 # Build settings
