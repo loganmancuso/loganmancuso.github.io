@@ -4,7 +4,7 @@ Configuration file: /mnt/c/Users/Micke/SourceControl/loganmancuso.github.io/_con
        Destination: /mnt/c/Users/Micke/SourceControl/loganmancuso.github.io/_site
  Incremental build: enabled
       Generating... 
-                    done in 0.56 seconds.
+                    done in 1.187 seconds.
  Auto-regeneration: enabled for '/mnt/c/Users/Micke/SourceControl/loganmancuso.github.io'
     Server address: http://localhost:4000
   Server running... press ctrl-c to stop.

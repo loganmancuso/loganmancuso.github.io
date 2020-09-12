@@ -20,10 +20,10 @@ linkedin_username: mancuso.logan
 
 # Additional icon links
 # additional_links:
-# - title: Link name
+# >title: Link name
 #   icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
-# - title: another link
+# >title: another link
 #   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
 
@@ -36,14 +36,16 @@ linkedin_username: mancuso.logan
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/images/profile.jpg
-about_content: | 
+about_content: |
   I have grown up around technology and with this exposure came an increased interest in problem solving.
   Breaking down complex problems into their core compenents is one of my greatest interests when it comes to software development.
   Studying computer sience and mathematics at UofSC gave me the opportunity to delve into complex data analysis and neural network design.
-   
+
   *Independent work*
     - Complex scripting shortcuts for BASH environments to improve usability of the Linux platform
-    - Data Visualization using PowerBI 
+    - Data Visualization using PowerBI
+    - OOP design and implementation
+    - Machine learning and AI development; Analysis of algorithmic efficiency multi node process scaling
 
 # Projects Section
 #projects_title: Projects #(Use this to override about projects section title)
@@ -57,19 +59,13 @@ about_content: |
 # More Section
 more_title: Skills #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  Python/Java/C#/Go/C++
-    - OOP design and implementation 
-  MySQL/MariaDB/PostgreSQL
-    - Database management and development
-  OpenCV/TensorFlow/OpenMPi/Anaconda
-    - Machine learning and AI development
-  BASH/PowerShell/SLURM/Ruby/Perl
-    - Schedule processing and resource allocation
-  Team/Independent Environment
-    - Coding projects independently and contribute to a larger scale project
-  Mathematics background 
-    - Analysis of algorithmic efficiency multi node process scaling
-  PHP/CSS/HTML/d3
+  >**DevOps and Automation** <br /> >>    Azure DevOps,    AWS    GitHub Actions    GitLab CI    Octopus   <br />
+  >**API development** <br /> >>    SpringBoot    MuleSoft    Apigee  <br />
+  >**Database** <br /> >>    Cosmos DB    MySQL    MariaDB    PostgreSQL  <br />
+  >**Machine Learning and AI** <br /> >>    OpenCV    TensorFlow    SLURM    OpenMPi    Anaconda  <br />
+  >**Programming Language** <br /> >>    Python 2.7+    Java 6.5+    C# .Net 2.0+    GoLang    C++ std 11.0++ <br />
+  >**Scripting Automation** <br /> >>    BASH    Powershell    Perl    CMD <br />
+  >**Website** <br /> >>    PHP    CSS    HTML    d3
 
 #  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 # Footer
@@ -85,7 +81,7 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
 exclude : [
   "Gemfile",
