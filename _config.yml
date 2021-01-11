@@ -59,13 +59,13 @@ about_content: |
 # More Section
 more_title: Skills #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  >**DevOps and Automation** <br /> >>    Azure DevOps,    AWS    GitHub Actions    GitLab CI    Octopus   <br />
-  >**API development** <br /> >>    SpringBoot    MuleSoft    Apigee  <br />
-  >**Database** <br /> >>    Cosmos DB    MySQL    MariaDB    PostgreSQL  <br />
-  >**Machine Learning and AI** <br /> >>    OpenCV    TensorFlow    SLURM    OpenMPi    Anaconda  <br />
-  >**Programming Language** <br /> >>    Python 2.7+    Java 6.5+    C# .Net 2.0+    GoLang    C++ std 11.0++ <br />
-  >**Scripting Automation** <br /> >>    BASH    Powershell    Perl    CMD <br />
-  >**Website** <br /> >>    PHP    CSS    HTML    d3
+  >**DevOps and Automation** <br /> >> Azure DevOps - AWS - GitHub Actions - GitLab CI - Octopus   <br />
+  >**API development** <br /> >> SpringBoot - MuleSoft - Apigee  <br />
+  >**Database** <br /> >> Cosmos DB - MySQL - MariaDB - PostgreSQL  <br />
+  >**Machine Learning and AI** <br /> >> OpenCV - TensorFlow - SLURM - OpenMPi - Anaconda  <br />
+  >**Programming Language** <br /> >> Python 2.7+ - Java 6.5+ - C# .Net 2.0+ - GoLang - C++ std 11.0++ <br />
+  >**Scripting Automation** <br /> >> BASH - Powershell - Perl - CMD <br />
+  >**Website** <br /> >> PHP - CSS - HTML - d3
 
 #  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 # Footer
