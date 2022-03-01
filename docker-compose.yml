@@ -4,7 +4,11 @@ services:
   jekyll:
     image: jekyll/jekyll
     container_name: modern-resume-theme
-    command: jekyll serve --watch --force_polling --verbose
+    command: > 
+      bash -c "
+        gem install bundler &&
+        jekyll serve --watch --force_polling --verbose
+      "
     ports:
       - 4000:4000
       - 35729:35729
