@@ -1,6 +1,6 @@
 # Experience template
 - layout: left
-  company: "Panera @ Capgemini"
+  company: Panera - Capgemini
   job_title: Lead API Developer
   dates: 2019
   quote: >
@@ -10,7 +10,7 @@
     Key Tools - Apigee (Google Cloud Platform), Swagger.
 
 - layout: left
-  company: "HCSC @ Capgemini"
+  company: HCSC - Capgemini
   job_title: 
   dates: 2020
   quote: >
@@ -20,7 +20,7 @@
     Key Tools - Mulesoft, Swagger, IBMMQ
   
 - layout: left
-  company: "Idemia (Civil ID & MBIS) @ Capgemini"
+  company: Idemia (Civil ID & MBIS) - Capgemini
   job_title: Lead Developer
   dates: 2020-present
   quote: >
