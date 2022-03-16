@@ -27,7 +27,8 @@ BUILD_ERR="$IOFILES_DIR/build.err"
 ###
 function compile() {
 	echo "COMPILING"
-	rm -rf .sass-cache/* _site/*
+	rm -rf .sass-cache/* _test/* _site/* ./vendor/*
+	bundle config set --local path 'vendor/bundle'
 	bundle install
 	bundle update
 	if [ $? -eq 0 ]; then
@@ -39,8 +40,9 @@ function compile() {
 }
 
 function execute() {
+	rm -rf .sass-cache/* _test/* _site/*
 	echo "EXECUTING"
-	bundle exec jekyll serve --host localhost --incremental --watch
+	bundle exec jekyll serve --config _config.yml --port 4000 --host 0.0.0.0
 	echo "EXECUTION COMPLETE"
 	cd $IOFILES_DIR
 }
@@ -50,7 +52,6 @@ function execute() {
 cd ../
 rm -r $SH_LOG $BUILD_ERR 
 touch $SH_LOG $BUILD_ERR
-
 
 if [ "$1" == "--full" ]; then
 	compile |& tee -a $BUILD_ERR 

@@ -1,30 +1,46 @@
 # Site
 repository: loganmancuso/loganmancuso.github.io
-favicon: assets/images/favicon.ico
+favicon: assets/favicon.ico # Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
 
 # Personal info
 name: Logan Mancuso
-title: DevOps Engineer and Systems Administator
+title: Software Engineer
 email: logan@mancuso.in
-phone: +1 (803) 470-3985
-# website:
+# email_title: Email (Email title override)
+phone: 803 470-3985
+# phone_title: Phone (Phone title override)
+website: https://loganmancuso.github.io/
+website_title: Web Resume
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
+# twitter_username: jekyllrb
 github_username:  loganmancuso
-gitlab_username: loganmancuso
+gitlab_username:  loganmancuso
 stackoverflow_username: "9565035"
-linkedin_username: mancuso.logan
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: mancuso-logan
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 # additional_links:
-# >title: Link name
-#   icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
-# >title: another link
-#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
@@ -34,43 +50,106 @@ linkedin_username: mancuso.logan
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: assets/images/profile.jpg
-about_content: |
-  I have grown up around technology and with this exposure came an increased interest in problem solving.
-  Breaking down complex problems into their core compenents is one of my greatest interests when it comes to software development.
-  Studying computer sience and mathematics at UofSC gave me the opportunity to delve into complex data analysis and neural network design.
+about_title: WhoAmI
+about_profile_image: images/portrait.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Welcome! My name is Logan and this is my website where I post my most relevant work experience and display my technical knowledge. 
+  Here you can find my [Resume](/assets/Logan Mancuso - ML Engineer.docx). My GitHub and GitLab are linked above with all of my contact information.
+## Projects
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: MIRC Facial Recognition
+        # link: https://github.com/loganmancuso/MIRC_Facial
+        # link_text: Link Text
+        additional_links:
+          - title:  Github
+            icon: fab fa-github
+            url: https://github.com/loganmancuso/MIRC_Facial
+        quote: >
+          World War II Facial Recognition Program
+        description: | # this will include new lines to allow paragraphs
+          This program will utilize OpenCV and Caffe to parse video files into still images.  It will then take the still images and search for faces and crop the images to a ROI (region of interest) for the model to match.  The model will take the know faces and names and attempt to match the still images to the names, creating a database of names and time stamps. This will allow the user to know where in each video each person appears
+## Experience
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Panera - Capgemini
+        sub_title: Lead API Developer
+        caption: 2019
+        # link: Link to company (optional)
+        quote: >
+          Panera Bread Co. partnered with Capgemini to develop a resful API for their fleet of service vehicles and external meal delivery systems
+        description: | # this will include new lines to allow paragraphs
+          Lead Developer over 4 team members; quality checked their work to build 250 endpoints. Was responsible for 150 on my own and successfully delivered the API's on time to the client.  
+          Key Tools - Apigee (Google Cloud Platform), Swagger.
+      - layout: left
+        title: HCSC - Capgemini
+        sub_title: API Developer
+        caption: 2020
+        # link: Link to company (optional)
+        quote: >
+          This insurance company partnered with Capgemini to translate legacy mainframe IBM message queing to a modern REST based API
+        description: | # this will include new lines to allow paragraphs
+          Lead developer for a team, and was responsible to helping architect the platform, which encryption schemas to use and how the message queing would work in the system post cutover. 
+          Key Tools - Mulesoft, Swagger, IBMMQ
+      - layout: left
+        title: Idemia (Civil ID & MBIS) - Capgemini
+        sub_title: Lead DevOps Engineer, Lead Application Engrineer, and Lead Tier 3 Support
+        caption: 2020 - Present
+        # link: Link to company (optional)
+        quote: >
+          Idemia partnered with Capgemini to accomplish a few goals: To achive full Real-ID compliance by 2020, and to have full server based system and upgrade from their mainframe. 
+        description: | # this will include new lines to allow paragraphs
+          Our Client was the Oklahoma Department of Public Safety. They had tasked Idemia and Capgemini with a massive undertaking. A team of around 15-20 Developers and Managers and Myself as the Devlead took this task on and accomplished that goal on Feburary 28th 2022. This project has been such a massive part of my life and has taught me more about computing than any project to-date. 
+          Key Tools - Octopus, Jenkins, JFrog, Microsoft CRM Dynamics 365, MoveIT, Pentaho, SQL, Informatica, Microsoft PowerBI 
+      - layout: left
+        title: University of SC Research Computing
+        sub_title: HPC & Nerual Network Developer
+        caption: 2015 - 2019
+        link: https://usc-rc.github.io/
+        quote: >
+          A research division with the goal of helping researchers accomplish their goals using high performance computing
+        description: | # this will include new lines to allow paragraphs
+          High Performance Computing, helping research students adapt software to utilize OpenMPi for scaling projects across multiple nodes. Utilizing Anaconda environments and Modules to create flexible local development. SLURM scheduling to optimize program submission and resource allocation for thousands of processes. Python development for machine learning using OpenCV3 for facial recognition and TensorFlow to train AI models. 
+          Key Tools - SLURM, OpenMpi, TensorFlow, Anaconda, Python, OpenCV
+## Education
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        title: University of South Carolina
+        sub_title: BS in Computer Science
+        caption: 2015 - 2019
+        quote: >
+          Studied algorithmic computation and graph theory; these fields provide a thorough basis in optimization-based programming.
+        description: | # this will include new lines to allow paragraphs
+          Topics included: algorithmic design, operating systems, computer architecture, and software engineering.
+      - layout: top-left
+        title: University of South Carolina
+        sub_title: Minor in Mathematics
+        caption: 2015 - 2019
+      #  quote: >
+      #    Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Topics included: combinatorics, game theory, set analysis, and linear algebra.
 
-  *Independent work*
-    - Complex scripting shortcuts for BASH environments to improve usability of the Linux platform
-    - Data Visualization using PowerBI
-    - OOP design and implementation
-    - Machine learning and AI development; Analysis of algorithmic efficiency multi node process scaling
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-# Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
-# Experience Section
-#experience_title: Experience #(Use this to override about experience section title)
 
-# Education Section
-#education_title: Education #(Use this to override about education section title)
-
-# More Section
-more_title: Skills #(Use this to override about more section title)
-more_content: | # this will include new lines to allow paragraphs
-  >**DevOps and Automation** <br /> >> Azure DevOps - AWS - GitHub Actions - GitLab CI - Octopus   <br />
-  >**API development** <br /> >> SpringBoot - MuleSoft - Apigee  <br />
-  >**Database** <br /> >> Cosmos DB - MySQL - MariaDB - PostgreSQL  <br />
-  >**Machine Learning and AI** <br /> >> OpenCV - TensorFlow - SLURM - OpenMPi - Anaconda  <br />
-  >**Programming Language** <br /> >> Python 2.7+ - Java 6.5+ - C# .Net 2.0+ - GoLang - C++ std 11.0++ <br />
-  >**Scripting Automation** <br /> >> BASH - Powershell - Perl - CMD <br />
-  >**Website** <br /> >> PHP - CSS - HTML - d3
-
-#  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 # Footer
-
 footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
@@ -81,7 +160,7 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-seo-tag
+ - jekyll-seo-tag
 
 exclude : [
   "Gemfile",
