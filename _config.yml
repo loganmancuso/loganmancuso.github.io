@@ -69,7 +69,7 @@ content:
         additional_links:
           - title:  Github
             icon: fab fa-github
-            url: https://github.com/loganmancuso/MIRC_Facial
+            url: https://gitlab.com/loganmancuso_USCRCi
         quote: >
           World War II Facial Recognition Program
         description: | # this will include new lines to allow paragraphs
