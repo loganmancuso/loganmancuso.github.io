@@ -1,7 +1,4 @@
-*.gem
-.bundle
-.sass-cache
 _site
-*.code-workspace
-vendor
-.jekyll-cache/
+.sass-cache
+.DS_Store
+_vendor
