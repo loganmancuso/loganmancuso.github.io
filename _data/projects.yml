@@ -6,32 +6,32 @@
   role: Lead DevSecOps Engineer
   duration: Nov 2020 &mdash; Jun 2022
   # url: "#"
-  description: 
+  description: TODO
 
 # Idemia Driver 360
 - project: Driver 360
   role: Lead DevOps Engineer, Systems Administrator
   duration: Mar 2020 &mdash; Jun 2022
   # url: "#"
-  description: 
+  description: TODO
 
 # HCSC
 - project: HCSC
   role: MuleSoft API Developer
   duration: Jan 2019 &mdash; Mar 2020
   # url: "#"
-  description: 
+  description: TODO
 
 # Penera
 - project: Panera
   role: Lead Apigee Developer
   duration: Sep 2019 &mdash; Dec 2019
   # url: "#"
-  description: 
+  description: TODO
 
 # MIRC
 - project: Military Image Resource Collections
   role: Researcher
   duration: Mar 2019 &mdash; Sep 2019
-  # url: "#"
-  description: 
+  url: "https://gitlab.com/loganmancuso_USCRCi"
+  description: TODO
