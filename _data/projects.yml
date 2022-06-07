@@ -1,16 +1,37 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+# MBIS
+- project: Multi Biometric Identification System
+  role: Lead DevSecOps Engineer
+  duration: Nov 2020 &mdash; Jun 2022
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+  description: 
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+# Idemia Driver 360
+- project: Driver 360
+  role: Lead DevOps Engineer, Systems Administrator
+  duration: Mar 2020 &mdash; Jun 2022
   # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+  description: 
+
+# HCSC
+- project: HCSC
+  role: MuleSoft API Developer
+  duration: Jan 2019 &mdash; Mar 2020
+  # url: "#"
+  description: 
+
+# Penera
+- project: Panera
+  role: Lead Apigee Developer
+  duration: Sep 2019 &mdash; Dec 2019
+  # url: "#"
+  description: 
+
+# MIRC
+- project: Military Image Resource Collections
+  role: Researcher
+  duration: Mar 2019 &mdash; Sep 2019
+  # url: "#"
+  description: 
