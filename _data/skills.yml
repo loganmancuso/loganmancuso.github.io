@@ -6,7 +6,7 @@
   description: Dot Net 3.5, 4.6 and 6, Python, Java, JavaScript, C++, C
 
 - skill: Database
-  description: Microsoft SQL, MySQL\MariaDB\PostgreSQL
+  description: Microsoft SQL, MySQL, MariaDB, Postgres 
 
 - skill: Scripting
   description: Bash (POSIX Compliant Shells), PowerShell, Ruby
