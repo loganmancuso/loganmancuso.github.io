@@ -1,6 +1,10 @@
 # Skills
-- skill: Functional
-  description: Team building, technical architect, live troubleshooting, and client communication skills.
+
+- skill: Infrastructure
+  description: Terraform, Kubernetes, Docker, Ansible, Podman, AWS cli, Azure cli
+
+- skill: Scripting
+  description: Bash (POSIX Compliant Shells), PowerShell, Ruby, Python
 
 - skill: Programming
   description: Dot Net 3.5, 4.6 and 6, Python, Java, JavaScript, C++, C
@@ -8,14 +12,14 @@
 - skill: Database
   description: Microsoft SQL, MySQL, MariaDB, Postgres 
 
-- skill: Scripting
-  description: Bash (POSIX Compliant Shells), PowerShell, Ruby
+- skill: Cloud
+  description: AWS, Azure, MuleSoft, VSphere, Google Cloud Platform, Apigee
+
+- skill: Functional
+  description: Team building, Technical Architect, live troubleshooting, and client communication skills.
 
 - skill: Microsoft
-  description: Visual Studio, React, Entity Framework, Azure, Windows Subsystem for Linux (v1/v2)
+  description: Visual Studio, React, Entity Framework, Windows Subsystem for Linux (v1/v2)
 
-- skill: Cloud
-  description: AWS, MuleSoft, VMware, Google Cloud Platform, Apigee
-
-- skill: AI Machine Learning
+- skill: AI and Machine Learning
   description: OpenCV, TensorFlow, OpenMPI, Caffe, SLURM

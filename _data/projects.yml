@@ -1,6 +1,13 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+# Hexagon and Infor
+- project: Hexagon (Formerly Infor EAM)
+  role: Lead DevSecOps Engineer
+  duration: Jun, 2022 &mdash; Current
+  url: "https://www.infor.com/hexagon-eam"
+  description: Deployment of infratructure to AWS using Terraform. Created and managed 7 enterprise forested active directories within AWS. Deployed and controlled underlying infrastructre for multi region deployments of managed AD, and replicas through Terraform. Deployment of AWS Workspaces through terraform, to centralize ingress to the 7 environments.
+
 # MBIS
 - project: Multi Biometric Identification System
   role: Lead DevSecOps Engineer
@@ -12,7 +19,7 @@
 - project: Driver 360
   role: Lead DevOps Engineer, Systems Administrator
   duration: Mar 2020 &mdash; Jun 2022
-  # url: "#"
+  url: "https://www.idemia.com/issuance-360-back-office"
   description: Idemia partnered with Capgemini to accomplish a few goals; To achive full Real-ID compliance by 2020, and to have full server based system and upgrade from their mainframe. 
 
 # HCSC
