@@ -2,8 +2,8 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # Hexagon and Infor
-- project: Hexagon (Formerly Infor EAM)
-  role: Lead DevSecOps Engineer
+- project: Hexagon EAM
+  role: DevSecOps Engineer, Lead Systems Administrator
   duration: Jun, 2022 &mdash; Current
   url: "https://www.infor.com/hexagon-eam"
   description: Deployment of infratructure to AWS using Terraform. Created and managed 7 enterprise forested active directories within AWS. Deployed and controlled underlying infrastructre for multi region deployments of managed AD, and replicas through Terraform. Deployment of AWS Workspaces through terraform, to centralize ingress to the 7 environments.
