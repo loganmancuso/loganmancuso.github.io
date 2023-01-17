@@ -12,7 +12,7 @@
 - project: Multi Biometric Identification System
   role: Lead DevSecOps Engineer
   duration: Nov 2020 &mdash; Jun 2022
-  # url: "#"
+  url: "https://www.idemia.com/mbis"
   description: Deployment of Ansible Scripts to install custom RPM packages to deployed RHEL servers. Create and edit Ansible scripts to continue development of the pipeline.  
 
 # Idemia Driver 360
@@ -26,14 +26,14 @@
 - project: HCSC
   role: MuleSoft API Developer
   duration: Jan 2019 &mdash; Mar 2020
-  # url: "#"
+  url: "https://www.hcsc.com/"
   description: This insurance company partnered with Capgemini to translate legacy mainframe IBM message queing to a modern REST based API. Lead developer for a team, and was responsible to helping architect the platform, which encryption schemas to use and how the message queing would work in the system post cutover. 
 
 # Penera
-- project: Panera
+- project: Panera API
   role: Lead Apigee Developer
   duration: Sep 2019 &mdash; Dec 2019
-  # url: "#"
+  url: "https://developer.panerabread.com/apis"
   description: Panera Bread Co. partnered with Capgemini to develop a resful API for their fleet of service vehicles and external meal delivery systems. Lead Developer over 4 team members; quality checked their work to build 250 endpoints. Was responsible for 150 on my own and successfully delivered the API's on time to the client.  
 
 # MIRC
