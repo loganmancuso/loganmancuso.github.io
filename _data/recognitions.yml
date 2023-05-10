@@ -1,15 +1,15 @@
 # Recognitions
-- award: L0 Architect
-  organization: Capgemini
-  year: 2021
-  summary: L0 Architect has displayed the ability to architect a solution for a client and implement it sucessfully for a client.
+- award: AZ 900
+  organization: Microsoft Azure
+  year: 2019
+  summary: This individual has met the requirements to develop solutions on Azure and implement the solution for a client.
 
 - award: Apigee Certified Security and API Developer
   organization: Google Cloud Platform
   year: 2019
   summary: The individual has met the qualifications necessary to develop API's on Apigee and secure them using advanced key, and token authorization.
 
-- award: AZ 900
-  organization: Microsoft Azure
-  year: 2019
-  summary: This individual has met the requirements to develop solutions on Azure and implement the solution for a client.  
+- award: L0 Architect
+  organization: Capgemini
+  year: 2021
+  summary: L0 Architect has displayed the ability to architect a solution for a client and implement it sucessfully for a client.
