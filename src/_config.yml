@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Logan Mancuso"
-resume_title:                   "DevSecOps Engineer, Software Engineer"
+resume_title:                   "IaC DevSecOps Engineer"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "logan@mancuso.in"
@@ -23,7 +23,9 @@ resume_contact_address:         "Columbia, South Carolina"
 resume_header_contact_info:     "Columbia, SC • (803) 470-3985 • logan@mancuso.in"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>Welcome! My name is Logan and this is my website where I post my most relevant work experience and display my technical knowledge.</p>"
+resume_header_intro: "<p>Welcome! My name is Logan and this is my website where I post my most relevant work experience and display my technical knowledge.
+  I speicalize in Infrastrucuter as Code (IaC) and automations, primarily using Terraform on AWS and Azure. 
+  </p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
