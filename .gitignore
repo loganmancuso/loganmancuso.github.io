@@ -1,5 +1,5 @@
-_site
-.sass-cache
-.DS_Store
-_vendor
-.~lock.*
+src/_site
+src/.sass-cache
+src/.DS_Store
+src/_vendor
+src/.~lock.*
