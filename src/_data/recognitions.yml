@@ -1,8 +1,13 @@
 # Recognitions
-- award: AZ 900
+- award: AZ 900, 104, 304
   organization: Microsoft Azure
   year: 2019
-  summary: This individual has met the requirements to develop solutions on Azure and implement the solution for a client.
+  summary: This individual has met the requirements to develop solutions on Azure.
+
+- award: Certified Cloud Practitioner
+  organization: Amazon Web Services
+  year: 2019
+  summary: The individual has met the requirements to develop solutions on AWS.
 
 - award: Apigee Certified Security and API Developer
   organization: Google Cloud Platform
@@ -12,4 +17,4 @@
 - award: L0 Architect
   organization: Capgemini
   year: 2021
-  summary: L0 Architect has displayed the ability to architect a solution for a client and implement it sucessfully for a client.
+  summary: The individual has met the requirements to architect an application and implement that solution for an active project.

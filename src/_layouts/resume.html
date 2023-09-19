@@ -34,14 +34,11 @@
                 {% include icon-links.html %}
             </div>
 
-            <div class="executive-summary" itemprop="description">
-                {{ site.resume_header_intro }}
-                <a href="/Resume-LoganMancuso-DevOpsEng.docx" download>My Resume</a>
-            </div>
+            <a href="/Resume-LoganMancuso-DevOpsEng.docx" class="resume-button no-print" itemprop="resumedocx">Download Resume</a>
 
-            {% if site.resume_looking_for_work == 'yes' %}
-            <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a> {% elsif site.resume_looking_for_work == 'no' %}
-            <a class="contact-button not-looking no-print">I'm not looking for work right now.</a> {% else %} {% endif %}
+            <div class="executive-summary" itemprop="description">
+              {{ site.resume_header_intro }}
+            </div>
 
         </header>
 
@@ -177,6 +174,11 @@
 
         </section>
         <!-- end Interests -->
+        {% if site.resume_looking_for_work == 'yes' %}
+        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a> 
+        {% elsif site.resume_looking_for_work == 'no' %}
+        <a class="contact-button not-looking no-print">I'm not looking for work right now.</a> 
+        {% else %} {% endif %}
         {% endif %} {% if site.resume_section_links %}
         <!-- begin Links -->
         <section class="content-section">
