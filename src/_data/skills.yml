@@ -1,19 +1,19 @@
 # Skills
 
 - skill: Infrastructure
-  description: Terraform, AWS cli, Azure cli, Docker, Ansible, Podman, Kubernetes
+  description: Terraform, Packer, Kubernetes, Docker Swarm, Ansible, Podman, cloud-init
 
 - skill: Scripting
-  description: Bash (POSIX Compliant Shells), PowerShell, Ruby
+  description: Bash (POSIX Compliant Shells), PowerShell, AWS cli, Azure cli
 
 - skill: Cloud
-  description: AWS, Azure, MuleSoft, VSphere, Google Cloud Platform, Apigee
+  description: AWS, Azure, GCP, MuleSoft, VSphere, Linode, Proxmox
 
 - skill: Programming
-  description: Python, Java, C/C++, Dot Net 3.5, 4.6 and 6, JavaScript
+  description: Python, Java, C/C++, Dot Net 3.5, 4.6 and 6
 
 - skill: Database
-  description: Microsoft SQL, MySQL, MariaDB, Postgres 
+  description: Microsoft SQL, Postgres, Oracle, MySQL, MariaDB
 
 - skill: Functional
   description: Team building, Technical Architect, live troubleshooting, and client communication skills.

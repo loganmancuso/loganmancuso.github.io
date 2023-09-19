@@ -23,8 +23,29 @@ resume_contact_address:         "Columbia, South Carolina"
 resume_header_contact_info:     "Columbia, SC • (803) 470-3985 • logan@mancuso.in"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>Welcome! My name is Logan and this is my website where I post my most relevant work experience and display my technical knowledge.
-  I speicalize in Infrastrucuter as Code (IaC) and automations, primarily using Terraform on AWS and Azure. 
+resume_header_intro: "<p>
+  Welcome! My name is Logan and this is my website where I post my most 
+  relevant work experience and display my technical knowledge.I speicalize 
+  in Infrastrucuter as Code (IaC) and automations, primarily using 
+  Terraform on AWS and Azure. 
+  </br> </br>
+  My personal projects typically consist of solving an automation problem.
+  We are often faced with small repetitive tasks that could otherwise be 
+  handed off to a machine. Most recently, I am implementing and contributing
+  to the development of a Proxmox provider for Terraform. This project 
+  consists of creating a cloud-init image using Packer. This image is 
+  bootstrapped using the latest deployment of docker swarm and other related
+  packages. From which Terraform deploys the cluster of vms, delegating one 
+  as the manager node and two or more additional worker nodes. Implementing 
+  tagging, custom applications can then be deployed to the swarm and allowed
+  to scale as demand grows. 
+  </br> </br>
+  Some of the applications I am hosting are NextCloud, for managing my file
+  synchronization, HomeAssistant for centralized home automation. Nginx Proxy
+  Manager to maintain and publish my SSL certificates and encrypt the traffic 
+  within my network. I also use Portainer as my orchestration engine with a 
+  plan to shift to Rancher once I have ported my applications from 
+  docker swarm to Kubernetes. 
   </p>"
 
 # use "yes" to display the email contact button,
