@@ -25,11 +25,11 @@ display_header_contact_info:    "true"
 
 resume_header_intro: "<p>
   Welcome! My name is Logan and this is my website where I post my most 
-  relevant work experience and display my technical knowledge.I speicalize 
+  relevant work experience and display my technical knowledge. I speicalize 
   in Infrastrucuter as Code (IaC) and automations, primarily using 
-  Terraform on AWS and Azure. 
+  Terraform on AWS and Azure.
   </br> </br>
-  My personal projects typically consist of solving an automation problem.
+  My personal projects typically consist of solving automation problems.
   We are often faced with small repetitive tasks that could otherwise be 
   handed off to a machine. Most recently, I am implementing and contributing
   to the development of a Proxmox provider for Terraform. This project 
