@@ -1,6 +1,6 @@
 FROM alpine:latest
-RUN apk add gcc g++ make ruby-full ruby-dev
-RUN gem install jekyll bundler
+RUN apk add ruby-dev alpine-sdk jekyll
+RUN gem install bundler
 ADD src $HOME/_site
 WORKDIR $HOME/_site
 RUN bundle install
