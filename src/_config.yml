@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Logan Mancuso"
-resume_title:                   "IaC DevSecOps Engineer"
+resume_title:                   "IaC DevSecOps & Network Engineer"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "logan@mancuso.in"
