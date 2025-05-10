@@ -1,0 +1,57 @@
+# Projects
+
+# # Hexagon and Infor
+# - project: Hexagon EAM
+#   role: DevSecOps Engineer
+#   duration: Jun, 2022 &mdash; Current
+#   url: "https://eam.hexagon.com/products"
+#   description: Deployment of infratructure to AWS using Terraform. Created and managed 7 enterprise forested active directories within AWS. Deployed and controlled underlying infrastructre for multi region deployments of managed AD, and replicas through Terraform. Deployment of AWS Workspaces through terraform, to centralize ingress to the 7 environments.
+
+# SCSEC VREMS Modernization
+- project: SC SEC Voter Registration Election Management System
+  role: DevSecOps Engineer, Lead Systems Administrator
+  duration: Jun, 2022 &mdash; Current
+  url: "https://vrems.scvotes.sc.gov"
+  description: Deployment of infratructure to GovCloud. CI/CD application deployments across 6 environments with dynamic code analysis on machine for code monitoring.
+
+# DOJ and Corrections Facilities
+- project: SC DOJ
+  role: DevSecOps Engineer
+  duration: Jun, 2022 &mdash; Current
+  url: "https://public.doc.state.sc.us/scdc-public"
+  description: CI/CD build, test, and deployment for full stack application. Implement static code analysis for vunerability scanning before release.
+
+# MBIS
+- project: Multi Biometric Identification System
+  role: Lead DevSecOps Engineer
+  duration: Nov 2020 &mdash; Jun 2022
+  url: "https://www.idemia.com/mbis"
+  description: Deployment of Ansible Scripts to install custom RPM packages to deployed RHEL servers. Create and edit Ansible scripts to continue development of the pipeline. 
+
+# Idemia Driver 360
+- project: Driver 360
+  role: Lead DevOps Engineer, Systems Administrator
+  duration: Mar 2020 &mdash; Jun 2022
+  url: "https://www.idemia.com/issuance-360-back-office"
+  description: Idemia partnered with Capgemini to accomplish a few goals; To achive full Real-ID compliance by 2020, and to have full server based system and upgrade from their mainframe. 
+
+# HCSC
+- project: HCSC
+  role: MuleSoft API Developer
+  duration: Jan 2019 &mdash; Mar 2020
+  url: "https://www.hcsc.com/"
+  description: This insurance company partnered with Capgemini to translate legacy mainframe IBM message queing to a modern REST based API. Lead developer for a team, and was responsible to helping architect the platform, which encryption schemas to use and how the message queing would work in the system post cutover. 
+
+# Penera
+- project: Panera API
+  role: Lead Apigee API Developer
+  duration: Sep 2019 &mdash; Dec 2019
+  url: "https://developer.cloud.panerabread.com"
+  description: Panera Bread Co. partnered with Capgemini to develop a resful API for their fleet of service vehicles and external meal delivery systems. Lead Developer over 4 team members; quality checked their work to build 250 endpoints. Was responsible for 150 on my own and successfully delivered the API's on time to the client. 
+
+# MIRC
+- project: Military Image Resource Collections
+  role: Researcher
+  duration: Mar 2019 &mdash; Sep 2019
+  url: "https://gitlab.com/loganmancuso_professional/usc-rci"
+  description: World War II Facial Recognition Program. This program will utilize OpenCV and Caffe to parse video files into still images. It will then take the still images and search for faces and crop the images to a ROI (region of interest) for the model to match. The model will take the know faces and names and attempt to match the still images to the names, creating a database of names and time stamps. This will allow the user to know where in each video each person appears

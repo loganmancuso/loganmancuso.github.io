@@ -1,0 +1,33 @@
+image: ruby:3.1
+
+stages:
+  - build
+  - deploy
+
+variables:
+  JEKYLL_ENV: production
+
+before_script:
+  - apt-get update -y
+  - apt-get install -y build-essential libpq-dev nodejs
+  - gem install bundler
+  - cd site
+  - bundle install
+
+build_jekyll:
+  stage: build
+  script:
+    - bundle exec jekyll build -d ../public
+  artifacts:
+    paths:
+      - public
+
+pages:
+  stage: deploy
+  script:
+    - echo "Pages ready"
+  artifacts:
+    paths:
+      - public
+  only:
+    - main

@@ -1,0 +1,25 @@
+# Recognitions
+- award: AZ 900, 104, 304
+  organization: Microsoft Azure
+  year: 2019
+  summary: This individual has met the requirements to develop solutions on Azure.
+
+- award: Certified Cloud Practitioner
+  organization: Amazon Web Services
+  year: 2019
+  summary: The individual has met the requirements to develop solutions on AWS.
+
+- award: Apigee Certified Security and API Developer
+  organization: Google Cloud Platform
+  year: 2019
+  summary: The individual has met the qualifications necessary to develop API's on Apigee and secure them using advanced key, and token authorization.
+
+- award: L1 Mentor
+  organization: EngineerKit
+  year: 2023
+  summary: The individual has met the requirements to operate as a mentor in the EngineerKit training program.
+
+- award: L0 Architect
+  organization: Capgemini
+  year: 2021
+  summary: The individual has met the requirements to architect an application and implement that solution for an active project.

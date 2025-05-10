@@ -1,0 +1,7 @@
+site/_site
+site/.sass-cache
+site/.DS_Store
+site/_vendor
+site/.~lock.*
+
+resume/build

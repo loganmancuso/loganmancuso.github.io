@@ -1,0 +1,25 @@
+# Skills
+
+- skill: Programming
+  description: GoLang, Python, Java, C/C++.
+
+- skill: Infrastructure
+  description: Kubernetes, Docker Swarm, EKS/ECS, Podman.
+
+- skill: Automation
+  description: Terraform, Packer, Cloud-Init, Ansible.
+
+- skill: Scripting
+  description: BASH, PowerShell, ZSH, AWS cli, Azure cli.
+
+- skill: Networking
+  description: IPv6, NextGenFirewall, Stateful-Firewall, Wireshark/PCAP, BGP, DNS.
+
+- skill: AI & Machine Learning
+  description: OpenCV, TensorFlow, OpenMPI, Caffe, SLURM.
+
+- skill: Cloud
+  description: AWS, Azure, GitLab, GitHub, VSphere, Linode, Proxmox.
+
+- skill: Database
+  description: Postgres, Oracle, MySQL, MariaDB, Microsoft SQL.
