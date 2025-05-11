@@ -71,7 +71,7 @@ resume_section_interests:       true
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   resume_github_url:            "https://github.com/loganmancuso"
-  resume_linkedin_url:          "https://www.linkedin.com/in/mancuso-logan"
+  resume_linkedin_url:          "https://www.linkedin.com/in/logan-mancuso"
   resume_website_url:           "https://loganmancuso_public.gitlab.io/proxmox-wiki"
 resume_print_social_links:      true
 
