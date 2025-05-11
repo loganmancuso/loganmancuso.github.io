@@ -1,6 +1,6 @@
 # Site settings
-title: "Resume"
-description: "A resume for Jekyll and GitHub Pages sites."
+title: "Web Resume"
+description: "A Resume written in Jekyll."
 
 # Build settings
 markdown: kramdown
@@ -70,10 +70,10 @@ resume_section_interests:       true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/loganmancuso"
-  resume_linkedin_url:          "https://www.linkedin.com/in/logan-mancuso"
-  resume_website_url:           "https://loganmancuso_public.gitlab.io/proxmox-wiki"
-resume_print_social_links:      true
+resume_github_url:            "https://github.com/loganmancuso"
+resume_linkedin_url:          "https://www.linkedin.com/in/logan-mancuso"
+resume_website_url:           "https://loganmancuso_public.gitlab.io/proxmox-wiki"
+resume_print_social_links:    true
 
 # Design settings
 resume_theme:                   dark
