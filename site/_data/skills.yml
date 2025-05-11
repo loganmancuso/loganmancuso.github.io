@@ -1,25 +1,34 @@
 # Skills
 
-- skill: Programming
-  description: GoLang, Python, Java, C/C++.
+- skill: Infrastructure as Code & Automation
+  description: Terraform, Packer, Cloud-Init, Ansible, Chef, Puppet
 
-- skill: Infrastructure
-  description: Kubernetes, Docker Swarm, EKS/ECS, Podman.
+- skill: CI/CD \& DevOps Tooling
+  description: GitLab Pipelines, Helm, GitHub Actions, Azure DevOps
 
-- skill: Automation
-  description: Terraform, Packer, Cloud-Init, Ansible.
+- skill: Containerization & Orchestration
+  description: Kubernetes (EKS, AKS, K3s), Docker Swarm, Podman, LXC/LXD
 
-- skill: Scripting
-  description: BASH, PowerShell, ZSH, AWS cli, Azure cli.
+- skill: Programming & Scripting
+  description: GoLang, Python, Java, Powershell, Bash, Azure cli, AWS cli, C/C++
+
+- skill: Monitoring & Logging
+  description: SumoLogic, Grafana, Open Telemetry, Prometheus, Loki, Wazah
+
+- skill: Cloud Platforms
+  description: AWS (EC2, VPC, IAM, S3, EKS), Azure (VMs, VNets, AKS)
+
+- skill: Database Technologies
+  description: PostgreSQL, Oracle, MySQL, MariaDB, Microsoft SQL Server
 
 - skill: Networking
-  description: IPv6, NextGenFirewall, Stateful-Firewall, Wireshark/PCAP, BGP, DNS.
+  description: IPv6, NextGenFirewall, Stateful-Firewall, Wireshark/PCAP, BGP, DNS
 
 - skill: AI & Machine Learning
-  description: OpenCV, TensorFlow, OpenMPI, Caffe, SLURM.
+  description: OpenCV, TensorFlow, OpenMPI, Caffe, SLURM
 
-- skill: Cloud
-  description: AWS, Azure, GitLab, GitHub, VSphere, Linode, Proxmox.
+- skill: Datacenter
+  description: Canonical MAAS, MINIO, CEPH, NFS, DAS/SAN
 
-- skill: Database
-  description: Postgres, Oracle, MySQL, MariaDB, Microsoft SQL.
+- skill: Functional
+  description: Solutions Architect, Production Support, Team Management, Client Engagement
