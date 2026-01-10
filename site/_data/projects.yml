@@ -1,6 +1,12 @@
 # Projects
 
 # Hexagon and Infor
+- project: Scout Motors Inc.
+  role: Sr. Specialist Infrastructure Architect
+  url: "https://www.scoutmotors.com"
+  description: Design and management of Nutanix HCI cluster, and hybrid AWS, Azure architecture to supporting manufacturing of EV vehicles.  
+
+# Hexagon and Infor
 - project: Hexagon EAM
   role: Sr. Automations Engineer
   url: "https://eam.hexagon.com/products"
